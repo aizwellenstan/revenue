@@ -16,9 +16,10 @@ function addLink(link,id) {
 var link = "https://shop.mng-intl.com/index.php/about/#"
 idList = ["pien-tze-huang", "gao-xu", "gosh", "ay-caramba"]
 
-if (window.location.href=="https://shop.mng-intl.com") {
+if (window.location.href=='https://shop.mng-intl.com/') {
 	for (i=0; i<idList.length; i++) {
 	  addLink(link+idList[i],idList[i]) 
 	}
 }
+console.lo
 
