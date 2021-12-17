@@ -21,5 +21,4 @@ if (window.location.href=='https://shop.mng-intl.com/') {
 	  addLink(link+idList[i],idList[i]) 
 	}
 }
-console.lo
 
