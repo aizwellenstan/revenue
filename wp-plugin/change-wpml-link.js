@@ -1,6 +1,6 @@
 window.addEventListener('load', function () {
   let location = window.location.href
-  if (location.includes("shop/")) {
+  if (location.includes("/shop/")) {
 	  let items = document.getElementsByClassName("wpml-ls-legacy-list-horizontal")
 	  for (let i=0; i<items.length; i++) {
 		  let item=items[i]
